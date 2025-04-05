@@ -84,7 +84,7 @@
         FUNCTION {
             bindings = <
 &kp EQUAL        &trans  &trans    &kp UNDERSCORE  &kp CARET                                           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10           &kp SLASH
-&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT  &trans                &kp AMPERSAND    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON         &kp STAR
+&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT  &trans                &kp AMPERSAND    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON         &kp DOUBLE_QUOTES
 &trans           &trans  &trans    &kp INT_YEN     &kp PIPE     &kp LEFT_BRACKET      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp SEMICOLON
 &trans           &trans  &trans    &trans          &trans       &trans                &trans           &trans                                                               &kp F12
             >;
@@ -92,10 +92,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp PLUS         &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                      &kp F7  &kp F8  &kp F9  &kp STAR           &kp RPAR
+&kp MINUS                   &kp PLUS         &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                      &kp F7  &kp F8  &kp F9  &kp STAR           &kp LEFT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LEFT_BRACKET       &kp F11  &kp F4  &kp F5  &kp F6  &kp RIGHT_BRACKET  &kp BACKSLASH
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp RIGHT_BRACKET      &kp F10  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACE    &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                 &trans   &trans                                     &kp PIPE
+&trans                      &trans           &trans           &trans           &trans        &trans                 &trans   &trans                                     &kp INT_RO
             >;
         };
 
