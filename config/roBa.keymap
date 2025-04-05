@@ -83,10 +83,10 @@
 
         FUNCTION {
             bindings = <
-&kp EQUAL        &trans  &trans    &trans       &kp CARET                                           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10           &kp SLASH
-&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR   &kp PERCENT  &trans                &kp AMPERSAND    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON         &kp STAR
-&trans           &trans  &trans    &kp INT_YEN  &kp PIPE     &kp LEFT_BRACKET      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp SEMICOLON
-&trans           &trans  &trans    &trans       &trans       &trans                &trans           &trans                                                               &kp F12
+&kp EQUAL        &trans  &trans    &kp UNDERSCORE  &kp CARET                                           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10           &kp SLASH
+&kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR      &kp PERCENT  &trans                &kp AMPERSAND    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON         &kp STAR
+&trans           &trans  &trans    &kp INT_YEN     &kp PIPE     &kp LEFT_BRACKET      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp SEMICOLON
+&trans           &trans  &trans    &trans          &trans       &trans                &trans           &trans                                                               &kp F12
             >;
         };
 
