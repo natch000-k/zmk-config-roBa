@@ -78,7 +78,7 @@
 
         FUNCTION {
             bindings = <
-&bt BT_SEL 0     &trans             &trans    &trans      &kp AMPERSAND                                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10  &kp F5
+&bt BT_SEL 0     &trans             &trans    &trans      &kp AMPERSAND                                    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F10  &kp EQUAL
 &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp PERCENT    &trans           &kp SQT          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp F11  &kp F10
 &trans           &trans             &trans    &trans      &kp PIPE       &kp AT_SIGN      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp F12  &kp F11
 &trans           &trans             &trans    &trans      &trans         &trans           &trans           &trans                                                      &kp F12
@@ -88,7 +88,7 @@
         NUM {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                             &kp F7  &kp F8  &kp F9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LEFT_BRACKET       &kp UNDERSCORE  &kp F4  &kp F5  &kp F6  &kp DOLLAR            &kp PERCENT
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LEFT_BRACKET       &kp UNDERSCORE  &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp RIGHT_BRACKET      &kp F10         &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                 &trans          &trans                                        &kp PIPE
             >;
